@@ -47,5 +47,4 @@ public class HelperBase {
             e.printStackTrace();
         }
     }
-
 }

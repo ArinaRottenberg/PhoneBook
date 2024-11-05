@@ -1,0 +1,2 @@
+2024-11-05 12:14:06,890 INFO [Test worker] t.TestBase [RegistrationTests.java:25] -%PARSER_ERROR[kvp]- registrationPositiveTest starts with: abc_843@list.ru and$Abc12345
+2024-11-05 12:51:52,656 INFO [Test worker] t.TestBase [RegistrationTests.java:25] -%PARSER_ERROR[kvp]- registrationPositiveTest starts with: abc_3109@list.ru and$Abc12345

@@ -1,0 +1,2 @@
+2024-11-14 09:01:38,186 INFO [Test worker] m.NGListener [NGListener.java:16] - Start test ---> loginPositiveTest
+2024-11-14 09:01:38,188 INFO [Test worker] m.NGListener [NGListener.java:34] - Test skipped ---> loginPositiveTest

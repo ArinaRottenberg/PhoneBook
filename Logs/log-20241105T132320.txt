@@ -1,5 +1,0 @@
-2024-11-05 13:23:21,837 INFO [Test worker] m.ApplicationManager [ApplicationManager.java:20] - Navigating to --->https://telranedu.web.app/home
-2024-11-05 13:23:21,854 INFO [Test worker] t.TestBase [TestBase.java:23] - Starting test ---> registrationPositiveTest
-2024-11-05 13:23:25,089 INFO [Test worker] t.TestBase [RegistrationTests.java:25] - registrationPositiveTest starts with: abc_1401@list.ru and$Abc12345
-2024-11-05 13:23:25,116 INFO [Test worker] t.TestBase [TestBase.java:28] - Finished test <--- registrationPositiveTest
-2024-11-05 13:23:25,216 INFO [Test worker] m.ApplicationManager [ApplicationManager.java:27] - Test completed

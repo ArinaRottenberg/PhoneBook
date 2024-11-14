@@ -10,7 +10,7 @@ public class HelperUser extends HelperBase {
         super(wd);
     }
 
-    public boolean isLogget() {
+    public boolean isLogged() {
         return isElementPresent(By.xpath("//*[.='Sing Out']")); // or any other locator for Logout button
     }
 
@@ -38,6 +38,9 @@ public class HelperUser extends HelperBase {
 //        passInput.sendKeys(password);
         type(By.xpath("//input[1]"), email);
         type(By.xpath("//input[2]"), password);
+//      пример ошибки
+//        type(By.xpath("input[2]"), password);
+
     }
 
     public void fillLoginRegistrationForm(User user) {
@@ -49,5 +52,10 @@ public class HelperUser extends HelperBase {
         wd.findElement(By.xpath("//*[.='LOGIN']")).click();
     }
 
+    public void login() {
+        openLoginRegistrationForm();
+        fillLoginRegistrationForm("arino4ka89@list.ru", "$Abc12345");
+        submitLogin();
+    }
 
 }

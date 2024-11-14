@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class RegistrationTests extends TestBase {
 
-    @Test
+    @Test(groups = {"positive"})
     public void registrationPositiveTest() {
         //open login form
         app.getHelperUser().openLoginRegistrationForm();
@@ -26,7 +26,7 @@ public class RegistrationTests extends TestBase {
         Assert.assertTrue(app.getHelperUser().isElementPresent(By.tagName("button")));
     }
 
-    @Test
+    @Test(groups = {"negative"})
     public void registrationNegativeTestWrongEmail() {
         // open login form
         app.getHelperUser().openLoginRegistrationForm();

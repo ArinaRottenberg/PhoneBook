@@ -1,0 +1,42 @@
+2024-11-14 12:18:42,354 INFO [Test worker] m.ApplicationManager [ApplicationManager.java:32] - Test started on Firefox browser
+2024-11-14 12:18:42,828 INFO [Test worker] m.ApplicationManager [ApplicationManager.java:38] - Navigating to --->https://telranedu.web.app/home
+2024-11-14 12:18:42,841 INFO [Test worker] t.TestBase [TestBase.java:24] - Starting test ---> loginPositiveTest
+2024-11-14 12:18:42,842 INFO [Test worker] m.NGListener [NGListener.java:16] - Start test ---> loginPositiveTest
+2024-11-14 12:18:42,843 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='LOGIN']
+2024-11-14 12:18:42,854 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='LOGIN'] is found
+2024-11-14 12:18:43,087 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //input[1]
+2024-11-14 12:18:43,092 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //input[1] is found
+2024-11-14 12:18:43,353 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //input[2]
+2024-11-14 12:18:43,357 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //input[2] is found
+2024-11-14 12:18:43,594 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //button[1]
+2024-11-14 12:18:43,598 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //button[1] is found
+2024-11-14 12:18:46,838 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.tagName: button
+2024-11-14 12:18:46,846 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.tagName: button is found
+2024-11-14 12:18:46,848 INFO [Test worker] m.NGListener [NGListener.java:22] - Test passed ---> loginPositiveTest
+2024-11-14 12:18:46,849 INFO [Test worker] t.TestBase [TestBase.java:29] - Finished test <--- loginPositiveTest
+2024-11-14 12:18:46,850 INFO [Test worker] t.TestBase [TestBase.java:30] - ========================================
+2024-11-14 12:18:46,851 INFO [Test worker] t.TestBase [TestBase.java:24] - Starting test ---> registrationPositiveTest
+2024-11-14 12:18:46,851 INFO [Test worker] m.NGListener [NGListener.java:16] - Start test ---> registrationPositiveTest
+2024-11-14 12:18:46,852 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='LOGIN']
+2024-11-14 12:18:49,876 INFO [Test worker] m.WDListener [WDListener.java:33] - Something went wrong!!!
+2024-11-14 12:18:49,878 INFO [Test worker] m.WDListener [WDListener.java:34] - Unable to locate element: //*[.='LOGIN']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6.1', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [37982c32-7fb5-45f5-bc65-597f57f9e2f7, findElement {using=xpath, value=//*[.='LOGIN']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0.1, moz:accessibilityChecks: false, moz:buildID: 20241103194048, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.6.0, moz:processID: 3258, moz:profile: /var/folders/pz/m8h_44jj1k9..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 37982c32-7fb5-45f5-bc65-597f57f9e2f7
+2024-11-14 12:18:49,878 INFO [Test worker] m.WDListener [WDListener.java:35] - [Ljava.lang.StackTraceElement;@2c0b4c83
+2024-11-14 12:18:50,105 INFO [Test worker] m.WDListener [WDListener.java:40] - Here is the path to screenshot with error ---> src/test/screens/screenshot-2109.png
+2024-11-14 12:18:50,105 INFO [Test worker] m.NGListener [NGListener.java:28] - Test failed ---> org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[.='LOGIN']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6.1', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [37982c32-7fb5-45f5-bc65-597f57f9e2f7, findElement {using=xpath, value=//*[.='LOGIN']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0.1, moz:accessibilityChecks: false, moz:buildID: 20241103194048, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.6.0, moz:processID: 3258, moz:profile: /var/folders/pz/m8h_44jj1k9..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 37982c32-7fb5-45f5-bc65-597f57f9e2f7
+2024-11-14 12:18:50,106 INFO [Test worker] t.TestBase [TestBase.java:29] - Finished test <--- registrationPositiveTest
+2024-11-14 12:18:50,106 INFO [Test worker] t.TestBase [TestBase.java:30] - ========================================
+2024-11-14 12:18:50,549 INFO [Test worker] m.ApplicationManager [ApplicationManager.java:49] - Test completed

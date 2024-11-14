@@ -1,5 +1,0 @@
-2024-11-05 13:19:39,152 INFO [Test worker] m.ApplicationManager [ApplicationManager.java:20] -%PARSER_ERROR[kvp]- Navigating to --->https://telranedu.web.app/home
-2024-11-05 13:19:39,168 INFO [Test worker] t.TestBase [TestBase.java:23] -%PARSER_ERROR[kvp]- Starting test ---> registrationPositiveTest
-2024-11-05 13:19:42,391 INFO [Test worker] t.TestBase [RegistrationTests.java:25] -%PARSER_ERROR[kvp]- registrationPositiveTest starts with: abc_1179@list.ru and$Abc12345
-2024-11-05 13:19:42,416 INFO [Test worker] t.TestBase [TestBase.java:28] -%PARSER_ERROR[kvp]- Finished test <--- registrationPositiveTest
-2024-11-05 13:19:42,507 INFO [Test worker] m.ApplicationManager [ApplicationManager.java:27] -%PARSER_ERROR[kvp]- Test completed

@@ -1,0 +1,68 @@
+2024-11-14 09:26:40,251 INFO [Test worker] m.ApplicationManager [ApplicationManager.java:32] - Test started on Firefox browser
+2024-11-14 09:26:40,892 INFO [Test worker] m.ApplicationManager [ApplicationManager.java:38] - Navigating to --->https://telranedu.web.app/home
+2024-11-14 09:26:40,909 INFO [Test worker] t.TestBase [TestBase.java:24] - Starting test ---> loginNegativeTestWrongEmail
+2024-11-14 09:26:40,910 INFO [Test worker] m.NGListener [NGListener.java:16] - Start test ---> loginNegativeTestWrongEmail
+2024-11-14 09:26:40,911 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='LOGIN']
+2024-11-14 09:26:40,926 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='LOGIN'] is found
+2024-11-14 09:26:41,181 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //input[1]
+2024-11-14 09:26:41,186 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //input[1] is found
+2024-11-14 09:26:41,476 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //input[2]
+2024-11-14 09:26:41,484 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //input[2] is found
+2024-11-14 09:26:41,752 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //button[1]
+2024-11-14 09:26:41,757 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //button[1] is found
+2024-11-14 09:26:45,041 INFO [Test worker] m.NGListener [NGListener.java:22] - Test passed ---> loginNegativeTestWrongEmail
+2024-11-14 09:26:45,042 INFO [Test worker] t.TestBase [TestBase.java:29] - Finished test <--- loginNegativeTestWrongEmail
+2024-11-14 09:26:45,042 INFO [Test worker] t.TestBase [TestBase.java:30] - ========================================
+2024-11-14 09:26:45,043 INFO [Test worker] t.TestBase [TestBase.java:24] - Starting test ---> loginNegativeTestWrongPass
+2024-11-14 09:26:45,043 INFO [Test worker] m.NGListener [NGListener.java:16] - Start test ---> loginNegativeTestWrongPass
+2024-11-14 09:26:45,043 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='LOGIN']
+2024-11-14 09:26:45,046 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='LOGIN'] is found
+2024-11-14 09:26:45,257 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //input[1]
+2024-11-14 09:26:45,263 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //input[1] is found
+2024-11-14 09:26:45,508 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //input[2]
+2024-11-14 09:26:45,512 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //input[2] is found
+2024-11-14 09:26:45,749 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //button[1]
+2024-11-14 09:26:45,754 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //button[1] is found
+2024-11-14 09:26:49,003 INFO [Test worker] m.NGListener [NGListener.java:22] - Test passed ---> loginNegativeTestWrongPass
+2024-11-14 09:26:49,004 INFO [Test worker] t.TestBase [TestBase.java:29] - Finished test <--- loginNegativeTestWrongPass
+2024-11-14 09:26:49,004 INFO [Test worker] t.TestBase [TestBase.java:30] - ========================================
+2024-11-14 09:26:49,005 INFO [Test worker] t.TestBase [TestBase.java:24] - Starting test ---> loginPositiveTest
+2024-11-14 09:26:49,005 INFO [Test worker] m.NGListener [NGListener.java:16] - Start test ---> loginPositiveTest
+2024-11-14 09:26:49,005 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='LOGIN']
+2024-11-14 09:26:49,010 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='LOGIN'] is found
+2024-11-14 09:26:49,222 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //input[1]
+2024-11-14 09:26:49,227 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //input[1] is found
+2024-11-14 09:26:49,477 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //input[2]
+2024-11-14 09:26:49,483 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //input[2] is found
+2024-11-14 09:26:49,732 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //button[1]
+2024-11-14 09:26:49,736 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //button[1] is found
+2024-11-14 09:26:52,953 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.tagName: button
+2024-11-14 09:26:52,972 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.tagName: button is found
+2024-11-14 09:26:52,973 INFO [Test worker] m.NGListener [NGListener.java:22] - Test passed ---> loginPositiveTest
+2024-11-14 09:26:52,974 INFO [Test worker] t.TestBase [TestBase.java:29] - Finished test <--- loginPositiveTest
+2024-11-14 09:26:52,974 INFO [Test worker] t.TestBase [TestBase.java:30] - ========================================
+2024-11-14 09:26:52,974 INFO [Test worker] t.TestBase [TestBase.java:24] - Starting test ---> loginPositiveTestModel
+2024-11-14 09:26:52,975 INFO [Test worker] m.NGListener [NGListener.java:16] - Start test ---> loginPositiveTestModel
+2024-11-14 09:26:52,976 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='LOGIN']
+2024-11-14 09:26:55,999 INFO [Test worker] m.WDListener [WDListener.java:33] - Something went wrong!!!
+2024-11-14 09:26:56,001 INFO [Test worker] m.WDListener [WDListener.java:34] - Unable to locate element: //*[.='LOGIN']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6.1', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [cd223116-5170-4583-930c-0a3251c43f37, findElement {using=xpath, value=//*[.='LOGIN']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0.1, moz:accessibilityChecks: false, moz:buildID: 20241103194048, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.6.0, moz:processID: 1587, moz:profile: /var/folders/pz/m8h_44jj1k9..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: cd223116-5170-4583-930c-0a3251c43f37
+2024-11-14 09:26:56,001 INFO [Test worker] m.WDListener [WDListener.java:35] - [Ljava.lang.StackTraceElement;@6ecdbab8
+2024-11-14 09:26:56,237 INFO [Test worker] m.WDListener [WDListener.java:40] - Here is the path to screenshot with error ---> src/test/screens/screenshot-2595.png
+2024-11-14 09:26:56,237 INFO [Test worker] m.NGListener [NGListener.java:28] - Test failed ---> org.openqa.selenium.NoSuchElementException: Unable to locate element: //*[.='LOGIN']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.0', revision: '267030adea'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '14.6.1', java.version: '23.0.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [cd223116-5170-4583-930c-0a3251c43f37, findElement {using=xpath, value=//*[.='LOGIN']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 132.0.1, moz:accessibilityChecks: false, moz:buildID: 20241103194048, moz:geckodriverVersion: 0.35.0, moz:headless: false, moz:platformVersion: 23.6.0, moz:processID: 1587, moz:profile: /var/folders/pz/m8h_44jj1k9..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: cd223116-5170-4583-930c-0a3251c43f37
+2024-11-14 09:26:56,238 INFO [Test worker] t.TestBase [TestBase.java:29] - Finished test <--- loginPositiveTestModel
+2024-11-14 09:26:56,239 INFO [Test worker] t.TestBase [TestBase.java:30] - ========================================
+2024-11-14 09:26:56,693 INFO [Test worker] m.ApplicationManager [ApplicationManager.java:49] - Test completed

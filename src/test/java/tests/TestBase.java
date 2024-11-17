@@ -16,20 +16,27 @@ public class TestBase {
 //    WebDriver wd;
 
     static ApplicationManager app = new ApplicationManager(
-            System.getProperty("browser", "chrome"));
+            System.getProperty("browser", "chrome")
+    );
 
     Logger logger = LoggerFactory.getLogger(TestBase.class);
 
     @BeforeMethod(alwaysRun = true)
-    public void startTest(Method method) {
-    logger.info("Starting test ---> " + method.getName());
+    public void startTest(Method method){
+        logger.info("Started test ----> " + method.getName());
     }
 
     @AfterMethod(alwaysRun = true)
-    public void stopTest(Method method) {
-    logger.info("Finished test <--- " + method.getName());
-    logger.info("========================================");
+    public void stopTest(Method method){
+
+        if (app.getHelperUser().isLogged()) { //добавлено доп разлогирование
+            app.getHelperUser().logout();
+        }
+
+        logger.info("Finished test ----> " + method.getName());
+        logger.info("================================================================");
     }
+
 
 
     @BeforeSuite(alwaysRun = true)
@@ -38,7 +45,7 @@ public class TestBase {
     }
 
     @AfterSuite(alwaysRun = true)
-    public void stop() {
+    public void stop(){
         app.tearDown();
     }
 

@@ -24,6 +24,7 @@ public class RegistrationTests extends TestBase {
         app.getHelperUser().pause(3000);
         logger.info("registrationPositiveTest starts with: " + email + " and" + password);
         Assert.assertTrue(app.getHelperUser().isElementPresent(By.tagName("button")));
+
     }
 
     @Test(groups = {"negative"})

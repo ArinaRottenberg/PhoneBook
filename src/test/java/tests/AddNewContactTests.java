@@ -18,8 +18,7 @@ public class AddNewContactTests extends TestBase {
                 .build();
     }
 
-//    @Test(invocationCount = 5)
-@Test(groups = {"positive", "smoke"})
+    @Test(invocationCount = 5, groups = {"positive", "smoke"})
     public void addNewContactPositiveTest() {
         int i = (int) (System.currentTimeMillis() / 1000) % 3600;
         Contact contact = Contact.builder()

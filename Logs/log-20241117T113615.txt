@@ -1,0 +1,203 @@
+2024-11-17 11:36:16,977 INFO [Test worker] m.ApplicationManager [ApplicationManager.java:30] - Test started on Chrome browser
+2024-11-17 11:36:18,237 INFO [Test worker] m.ApplicationManager [ApplicationManager.java:37] - Navigating to --->https://telranedu.web.app/home
+2024-11-17 11:36:18,252 INFO [Test worker] t.TestBase [TestBase.java:26] - Started test ----> addNewContactPositiveTest
+2024-11-17 11:36:18,254 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='Sign Out']
+2024-11-17 11:36:21,275 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='Sign Out'] is found
+2024-11-17 11:36:21,276 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='LOGIN']
+2024-11-17 11:36:21,289 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='LOGIN'] is found
+2024-11-17 11:36:21,331 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //input[1]
+2024-11-17 11:36:21,345 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //input[1] is found
+2024-11-17 11:36:21,451 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //input[2]
+2024-11-17 11:36:21,458 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //input[2] is found
+2024-11-17 11:36:21,507 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //button[1]
+2024-11-17 11:36:21,514 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //button[1] is found
+2024-11-17 11:36:21,542 INFO [Test worker] m.NGListener [NGListener.java:16] - Start test ---> addNewContactPositiveTest
+2024-11-17 11:36:21,544 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //a[.='ADD']
+2024-11-17 11:36:22,576 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //a[.='ADD'] is found
+2024-11-17 11:36:22,616 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='Name']
+2024-11-17 11:36:22,623 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='Name'] is found
+2024-11-17 11:36:22,678 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='Last Name']
+2024-11-17 11:36:22,685 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='Last Name'] is found
+2024-11-17 11:36:22,736 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='Phone']
+2024-11-17 11:36:22,742 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='Phone'] is found
+2024-11-17 11:36:22,794 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='email']
+2024-11-17 11:36:22,801 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='email'] is found
+2024-11-17 11:36:22,852 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='Address']
+2024-11-17 11:36:22,859 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='Address'] is found
+2024-11-17 11:36:22,910 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='description']
+2024-11-17 11:36:22,916 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='description'] is found
+2024-11-17 11:36:22,965 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //button[.='Save']
+2024-11-17 11:36:22,971 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //button[.='Save'] is found
+2024-11-17 11:36:22,996 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3
+2024-11-17 11:36:23,588 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3 is found
+2024-11-17 11:36:23,605 INFO [Test worker] m.NGListener [NGListener.java:22] - Test passed ---> addNewContactPositiveTest
+2024-11-17 11:36:23,606 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='Sign Out']
+2024-11-17 11:36:23,613 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='Sign Out'] is found
+2024-11-17 11:36:23,613 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='Sign Out']
+2024-11-17 11:36:23,620 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='Sign Out'] is found
+2024-11-17 11:36:23,647 INFO [Test worker] t.TestBase [TestBase.java:36] - Finished test ----> addNewContactPositiveTest
+2024-11-17 11:36:23,647 INFO [Test worker] t.TestBase [TestBase.java:37] - ================================================================
+2024-11-17 11:36:23,648 INFO [Test worker] t.TestBase [TestBase.java:26] - Started test ----> addNewContactPositiveTest
+2024-11-17 11:36:23,648 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='Sign Out']
+2024-11-17 11:36:26,703 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='Sign Out'] is found
+2024-11-17 11:36:26,703 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='LOGIN']
+2024-11-17 11:36:26,713 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='LOGIN'] is found
+2024-11-17 11:36:26,749 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //input[1]
+2024-11-17 11:36:26,754 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //input[1] is found
+2024-11-17 11:36:26,815 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //input[2]
+2024-11-17 11:36:26,823 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //input[2] is found
+2024-11-17 11:36:26,876 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //button[1]
+2024-11-17 11:36:26,881 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //button[1] is found
+2024-11-17 11:36:26,903 INFO [Test worker] m.NGListener [NGListener.java:16] - Start test ---> addNewContactPositiveTest
+2024-11-17 11:36:26,903 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //a[.='ADD']
+2024-11-17 11:36:27,195 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //a[.='ADD'] is found
+2024-11-17 11:36:27,229 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='Name']
+2024-11-17 11:36:27,235 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='Name'] is found
+2024-11-17 11:36:27,283 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='Last Name']
+2024-11-17 11:36:27,288 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='Last Name'] is found
+2024-11-17 11:36:27,331 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='Phone']
+2024-11-17 11:36:27,336 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='Phone'] is found
+2024-11-17 11:36:27,387 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='email']
+2024-11-17 11:36:27,392 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='email'] is found
+2024-11-17 11:36:27,440 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='Address']
+2024-11-17 11:36:27,444 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='Address'] is found
+2024-11-17 11:36:27,491 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='description']
+2024-11-17 11:36:27,496 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='description'] is found
+2024-11-17 11:36:27,540 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //button[.='Save']
+2024-11-17 11:36:27,546 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //button[.='Save'] is found
+2024-11-17 11:36:27,566 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3
+2024-11-17 11:36:28,016 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3 is found
+2024-11-17 11:36:28,020 INFO [Test worker] m.NGListener [NGListener.java:22] - Test passed ---> addNewContactPositiveTest
+2024-11-17 11:36:28,020 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='Sign Out']
+2024-11-17 11:36:28,025 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='Sign Out'] is found
+2024-11-17 11:36:28,026 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='Sign Out']
+2024-11-17 11:36:28,031 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='Sign Out'] is found
+2024-11-17 11:36:28,050 INFO [Test worker] t.TestBase [TestBase.java:36] - Finished test ----> addNewContactPositiveTest
+2024-11-17 11:36:28,053 INFO [Test worker] t.TestBase [TestBase.java:37] - ================================================================
+2024-11-17 11:36:28,053 INFO [Test worker] t.TestBase [TestBase.java:26] - Started test ----> addNewContactPositiveTest
+2024-11-17 11:36:28,054 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='Sign Out']
+2024-11-17 11:36:31,084 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='Sign Out'] is found
+2024-11-17 11:36:31,085 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='LOGIN']
+2024-11-17 11:36:31,094 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='LOGIN'] is found
+2024-11-17 11:36:31,127 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //input[1]
+2024-11-17 11:36:31,132 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //input[1] is found
+2024-11-17 11:36:31,190 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //input[2]
+2024-11-17 11:36:31,197 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //input[2] is found
+2024-11-17 11:36:31,250 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //button[1]
+2024-11-17 11:36:31,256 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //button[1] is found
+2024-11-17 11:36:31,278 INFO [Test worker] m.NGListener [NGListener.java:16] - Start test ---> addNewContactPositiveTest
+2024-11-17 11:36:31,278 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //a[.='ADD']
+2024-11-17 11:36:31,569 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //a[.='ADD'] is found
+2024-11-17 11:36:31,610 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='Name']
+2024-11-17 11:36:31,615 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='Name'] is found
+2024-11-17 11:36:31,665 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='Last Name']
+2024-11-17 11:36:31,670 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='Last Name'] is found
+2024-11-17 11:36:31,718 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='Phone']
+2024-11-17 11:36:31,722 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='Phone'] is found
+2024-11-17 11:36:31,778 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='email']
+2024-11-17 11:36:31,783 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='email'] is found
+2024-11-17 11:36:31,833 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='Address']
+2024-11-17 11:36:31,837 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='Address'] is found
+2024-11-17 11:36:31,886 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='description']
+2024-11-17 11:36:31,891 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='description'] is found
+2024-11-17 11:36:31,934 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //button[.='Save']
+2024-11-17 11:36:31,939 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //button[.='Save'] is found
+2024-11-17 11:36:31,960 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3
+2024-11-17 11:36:32,428 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3 is found
+2024-11-17 11:36:32,437 INFO [Test worker] m.NGListener [NGListener.java:22] - Test passed ---> addNewContactPositiveTest
+2024-11-17 11:36:32,438 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='Sign Out']
+2024-11-17 11:36:32,444 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='Sign Out'] is found
+2024-11-17 11:36:32,444 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='Sign Out']
+2024-11-17 11:36:32,450 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='Sign Out'] is found
+2024-11-17 11:36:32,476 INFO [Test worker] t.TestBase [TestBase.java:36] - Finished test ----> addNewContactPositiveTest
+2024-11-17 11:36:32,476 INFO [Test worker] t.TestBase [TestBase.java:37] - ================================================================
+2024-11-17 11:36:32,476 INFO [Test worker] t.TestBase [TestBase.java:26] - Started test ----> addNewContactPositiveTest
+2024-11-17 11:36:32,476 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='Sign Out']
+2024-11-17 11:36:35,482 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='Sign Out'] is found
+2024-11-17 11:36:35,483 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='LOGIN']
+2024-11-17 11:36:35,491 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='LOGIN'] is found
+2024-11-17 11:36:35,527 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //input[1]
+2024-11-17 11:36:35,532 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //input[1] is found
+2024-11-17 11:36:35,596 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //input[2]
+2024-11-17 11:36:35,601 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //input[2] is found
+2024-11-17 11:36:35,657 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //button[1]
+2024-11-17 11:36:35,662 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //button[1] is found
+2024-11-17 11:36:35,684 INFO [Test worker] m.NGListener [NGListener.java:16] - Start test ---> addNewContactPositiveTest
+2024-11-17 11:36:35,684 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //a[.='ADD']
+2024-11-17 11:36:35,979 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //a[.='ADD'] is found
+2024-11-17 11:36:36,014 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='Name']
+2024-11-17 11:36:36,022 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='Name'] is found
+2024-11-17 11:36:36,074 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='Last Name']
+2024-11-17 11:36:36,080 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='Last Name'] is found
+2024-11-17 11:36:36,127 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='Phone']
+2024-11-17 11:36:36,132 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='Phone'] is found
+2024-11-17 11:36:36,179 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='email']
+2024-11-17 11:36:36,183 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='email'] is found
+2024-11-17 11:36:36,232 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='Address']
+2024-11-17 11:36:36,237 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='Address'] is found
+2024-11-17 11:36:36,284 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='description']
+2024-11-17 11:36:36,288 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='description'] is found
+2024-11-17 11:36:36,333 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //button[.='Save']
+2024-11-17 11:36:36,337 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //button[.='Save'] is found
+2024-11-17 11:36:36,358 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3
+2024-11-17 11:36:36,824 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3 is found
+2024-11-17 11:36:36,828 INFO [Test worker] m.NGListener [NGListener.java:22] - Test passed ---> addNewContactPositiveTest
+2024-11-17 11:36:36,828 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='Sign Out']
+2024-11-17 11:36:36,832 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='Sign Out'] is found
+2024-11-17 11:36:36,833 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='Sign Out']
+2024-11-17 11:36:36,837 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='Sign Out'] is found
+2024-11-17 11:36:36,861 INFO [Test worker] t.TestBase [TestBase.java:36] - Finished test ----> addNewContactPositiveTest
+2024-11-17 11:36:36,861 INFO [Test worker] t.TestBase [TestBase.java:37] - ================================================================
+2024-11-17 11:36:36,862 INFO [Test worker] t.TestBase [TestBase.java:26] - Started test ----> addNewContactPositiveTest
+2024-11-17 11:36:36,862 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='Sign Out']
+2024-11-17 11:36:39,897 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='Sign Out'] is found
+2024-11-17 11:36:39,897 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='LOGIN']
+2024-11-17 11:36:39,906 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='LOGIN'] is found
+2024-11-17 11:36:39,942 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //input[1]
+2024-11-17 11:36:39,948 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //input[1] is found
+2024-11-17 11:36:40,008 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //input[2]
+2024-11-17 11:36:40,016 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //input[2] is found
+2024-11-17 11:36:40,071 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //button[1]
+2024-11-17 11:36:40,077 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //button[1] is found
+2024-11-17 11:36:40,100 INFO [Test worker] m.NGListener [NGListener.java:16] - Start test ---> addNewContactPositiveTest
+2024-11-17 11:36:40,101 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //a[.='ADD']
+2024-11-17 11:36:40,388 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //a[.='ADD'] is found
+2024-11-17 11:36:40,423 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='Name']
+2024-11-17 11:36:40,429 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='Name'] is found
+2024-11-17 11:36:40,477 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='Last Name']
+2024-11-17 11:36:40,481 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='Last Name'] is found
+2024-11-17 11:36:40,527 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='Phone']
+2024-11-17 11:36:40,531 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='Phone'] is found
+2024-11-17 11:36:40,580 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='email']
+2024-11-17 11:36:40,585 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='email'] is found
+2024-11-17 11:36:40,639 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='Address']
+2024-11-17 11:36:40,643 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='Address'] is found
+2024-11-17 11:36:40,693 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.cssSelector: [placeholder='description']
+2024-11-17 11:36:40,698 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.cssSelector: [placeholder='description'] is found
+2024-11-17 11:36:40,746 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //button[.='Save']
+2024-11-17 11:36:40,750 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //button[.='Save'] is found
+2024-11-17 11:36:40,772 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3
+2024-11-17 11:36:41,236 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //div[@class='contact-item_card__2SOIM'][last()]//h3 is found
+2024-11-17 11:36:41,242 INFO [Test worker] m.NGListener [NGListener.java:22] - Test passed ---> addNewContactPositiveTest
+2024-11-17 11:36:41,242 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='Sign Out']
+2024-11-17 11:36:41,248 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='Sign Out'] is found
+2024-11-17 11:36:41,248 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='Sign Out']
+2024-11-17 11:36:41,254 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='Sign Out'] is found
+2024-11-17 11:36:41,280 INFO [Test worker] t.TestBase [TestBase.java:36] - Finished test ----> addNewContactPositiveTest
+2024-11-17 11:36:41,281 INFO [Test worker] t.TestBase [TestBase.java:37] - ================================================================
+2024-11-17 11:36:41,282 INFO [Test worker] t.TestBase [TestBase.java:26] - Started test ----> loginNegativeTestWrongEmail
+2024-11-17 11:36:41,282 INFO [Test worker] m.NGListener [NGListener.java:16] - Start test ---> loginNegativeTestWrongEmail
+2024-11-17 11:36:41,283 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='LOGIN']
+2024-11-17 11:36:41,287 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='LOGIN'] is found
+2024-11-17 11:36:41,310 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //input[1]
+2024-11-17 11:36:41,314 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //input[1] is found
+2024-11-17 11:36:41,377 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //input[2]
+2024-11-17 11:36:41,383 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //input[2] is found
+2024-11-17 11:36:41,444 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //button[1]
+2024-11-17 11:36:41,450 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //button[1] is found
+2024-11-17 11:36:44,493 INFO [Test worker] m.NGListener [NGListener.java:22] - Test passed ---> loginNegativeTestWrongEmail
+2024-11-17 11:36:44,494 INFO [Test worker] m.WDListener [WDListener.java:21] - Start looking for element by locator ---> By.xpath: //*[.='Sign Out']
+2024-11-17 11:36:47,531 INFO [Test worker] m.WDListener [WDListener.java:27] - Element with locator ---> By.xpath: //*[.='Sign Out'] is found
+2024-11-17 11:36:47,531 INFO [Test worker] t.TestBase [TestBase.java:36] - Finished test ----> loginNegativeTestWrongEmail
+2024-11-17 11:36:47,531 INFO [Test worker] t.TestBase [TestBase.java:37] - ================================================================
+2024-11-17 11:36:47,645 INFO [Test worker] m.ApplicationManager [ApplicationManager.java:48] - Test completed

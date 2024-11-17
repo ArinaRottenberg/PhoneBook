@@ -6,7 +6,6 @@ import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
@@ -33,14 +32,12 @@ public class ApplicationManager {
             wd = new EventFiringWebDriver(new FirefoxDriver());
             logger.info("Test started on Firefox browser");
         }
-
-
         wd.register(new WDListener());
         wd.navigate().to(link);
         logger.info("Navigating to --->" + link);
         wd.manage().
                 timeouts().
-                implicitlyWait(3, TimeUnit.SECONDS);
+                implicitlyWait(1, TimeUnit.SECONDS);
 
         helperUser = new HelperUser(wd);
         helperContact = new HelperContact(wd);

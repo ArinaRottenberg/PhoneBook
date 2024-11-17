@@ -1,15 +1,25 @@
 package tests;
 
 import manager.NGListener;
+import manager.ProviderData;
 import models.User;
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 
 @Listeners(NGListener.class)
 public class LoginTests extends TestBase {
+
+//    @AfterMethod(alwaysRun = true)
+//    public void postCondition() {
+//        if (app.getHelperUser().isLogged()) {
+//            app.getHelperUser().logout();
+//        }
+//    }
+
     @Test(groups = {"positive"})
     public void loginPositiveTest() {
 
@@ -52,6 +62,15 @@ public class LoginTests extends TestBase {
 //        app.getHelperUser().pause(3000);
 //        Assert.assertTrue(app.getHelperUser().isElementPresent(By.tagName("button")));
 //    }
+
+    @Test(groups = {"positive"}, dataProvider = "userDTO", dataProviderClass = ProviderData.class)
+    public void loginPositiveUserDTO(User user) {
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm("arino4ka89@list.ru", "$Abc12345");
+        app.getHelperUser().submitLogin();
+        app.getHelperUser().pause(3000);
+        Assert.assertTrue(app.getHelperUser().isElementPresent(By.tagName("button")));
+    }
 
     @Test(groups = {"negative", "smoke"})
     public void loginNegativeTestWrongEmail() {
